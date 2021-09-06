@@ -21,5 +21,5 @@ class GasTracker:
 
 
 if __name__ == "__main__":
-    x = GasTracker()
+    x = GasTracker("{URL GOES HERE}")
     x.update_csv(x.get_gas_info(), "{FILE PATH GOES HERE}")
