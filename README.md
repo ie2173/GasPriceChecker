@@ -16,7 +16,7 @@ Setting up URL.  To specify how you want to interact with the etherscan API, you
 To change functionality to gas tracker, add the following to the end of the base URL address: 
 ```?module=gastracker&action=gasoracle```
 
-Finally you will take the API key you obtained in the set up and input it in the next part via:  &apikey={YOUR KEY GOES HERE}
+Finally you will take the API key you obtained in the set up and input it in the next part via:  ```&apikey={YOUR KEY GOES HERE}```
 
 This is it.  You don't need any headers, nor do you need to specify the format you want the data back in.  If you want more info, you can access the API documentation at https://docs.etherscan.io/.
 
