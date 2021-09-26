@@ -13,7 +13,8 @@ Copy the code and either paste it in your project, or create an os environment f
 
 Setting up URL.  To specify how you want to interact with the etherscan API, you will need to tweak the url address.  To use the Ethereum maninet use the following base: https://api.etherscan.io
 
-To change functionality to gas tracker, add the following to the end of the base URL address: ?module=gastracker&action=gasoracle
+To change functionality to gas tracker, add the following to the end of the base URL address: 
+```?module=gastracker&action=gasoracle```
 
 Finally you will take the API key you obtained in the set up and input it in the next part via:  &apikey={YOUR KEY GOES HERE}
 
